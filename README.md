@@ -19,6 +19,7 @@ g++ -std=gnu++11 -Wall Calculator.cc Expression.cc Operator.cc Operand.cc -o cal
 ```
 make
 ```
+
 ```
 make clean   
 ```
@@ -27,7 +28,7 @@ make clean
 
 -   Run on Windows:
 
-     Read from the standard input:
+Read from the standard input:
      
 ```
 calculator.exe
@@ -38,6 +39,7 @@ Read from a textfile:
 ```
 calculator.exe [filepath]
 ```
+
 -   Run on Linux:
 
 
