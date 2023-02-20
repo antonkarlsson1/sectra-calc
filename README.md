@@ -9,47 +9,62 @@ A relatively simple calculator built with an object oriented approach. Supports 
 How to compile the program
 
 
--   Compiling on Windows:
+-   Compiling on Windows (Bash etc.):
 
-    -   g++ -std=gnu++11 -Wall Calculator.cc Expression.cc Operator.cc Operand.cc -o calculator.exe
+```
+g++ -std=gnu++11 -Wall Calculator.cc Expression.cc Operator.cc Operand.cc -o calculator.exe
+```
 
 -   Compiling on Linux:
-
-    -   make            -   Compiles the program
-
-    -   make clean   -   Cleans up the repository by removing .o files and executables
-
+```
+make
+```
+```
+make clean   
+```
 
 ### Running the calculator
 
 -   Run on Windows:
 
      Read from the standard input:
+     
+```
+calculator.exe
+```
 
-    -   calculator.exe
-
-     Read from a textfile:
-
-    -   calculator.exe [filepath]
-
+Read from a textfile:
+     
+```
+calculator.exe [filepath]
+```
 -   Run on Linux:
 
 
-     Read from standard input:
+Read from standard input:
+```
+make check
+```
 
-    -   make check                                    -   Compiles and runs the executable
+or
+         
+```
+calculator
+```
 
-         or
+Read from textfile:
+     
+Compiles and runs the executable with "filename" as argument. The file must be put into the folder "Input".
+        
+```
+make test INPUT="filename"
+```
 
-    -   calculator
+or
 
-     Read from textfile:
-
-    -   make test INPUT="filename"      -       Compiles and runs the executable with "filename" as argument. The file must be put into the folder "Input".
-
-         or
-
-    -   calculator [filepath]
+```
+calculator [filepath]
+```
 
 ## Limitations & Assumptions
 
