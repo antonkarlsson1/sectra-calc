@@ -1,0 +1,10 @@
+A add 1
+B add a
+wHaT add IS......
+oh noooooo .....  wwwwww
+Can we still print a?
+print A
+oh it works....
+print b??
+print B
+

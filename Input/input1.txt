@@ -1,0 +1,17 @@
+result add revenue
+result subtract costs
+revenue add 200
+costs add salaries
+salaries add 20
+salaries multiply 5
+costs add 10
+print result
+A add 1
+B add a
+a add 1
+c multiply A
+print b
+print c
+c add 1
+c multiply a
+print c
